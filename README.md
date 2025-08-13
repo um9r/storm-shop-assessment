@@ -7,17 +7,26 @@ You can buy it on our [website](https://nitro-storm.ru) / [telegram bot](https:/
 
 What about scripts? You can easily buy them on our [website](https://nitro-storm.ru). After purchasing you get the archive and README.md file with all instructions. If you wish, we can add you into private GitHub repository with the script you purchased!
 
-# What StormShop made of ...
+# How to Install
 
-## Website: Frontend
-For frontend we used React with Typescript. We also use ViteJS instead of Webpack as it's more convenient and fast!
-P.S. We could try to move to NextJS sometime in the future. It's not a promise though.
+```
+git clone https://tailormind-design-studio-admin@bitbucket.org/tailormind-design-studio/storm-shop.git
 
-## Backend
-For backend... we had little argue about that because one of the developers used to be a C++ developer but we decided to use NodeJS for backend. It might be slow relatively C++ but it's definetely easier to make backend using NodeJS than C++.
-P.S. May be in the future if the project grows fast, we might change our mind about NodeJS!
+npm install
 
-## Telegram Bot
-What about telegram bot? - Python. Because the developer initially worked on the bot was a Python Developer.
+npm start
+```
 
-That's it for now, let's move to Russian verios of README...
+# Basic Technical Test
+
+<p align="center">
+  <br />
+  <a href="">
+      <img src="./public/landing.png" alt="Ad Explorer logo" width="600px">
+  </a>
+</p>
+
+1. Remove Subscripts and Scripts Buttons from header
+2. Instead, add `Create Account` and `Login Account` buttons
+
+In order to submit your test, create a github repository and push all your changes to this repository and share the repository link with your recruiter.
