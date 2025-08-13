@@ -19,12 +19,7 @@ npm start
 
 # Basic Technical Test
 
-<p align="center">
-  <br />
-  <a href="">
-      <img src="./public/landing.png" alt="Ad Explorer logo" width="600px">
-  </a>
-</p>
+![Logo](public/landing.PNG)
 
 1. Remove Subscripts and Scripts Buttons from header
 2. Instead, add `Create Account` and `Login Account` buttons
