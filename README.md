@@ -25,3 +25,27 @@ npm start
 2. Instead, add `Create Account` and `Login Account` buttons
 
 In order to submit your test, create a github repository and push all your changes to this repository and share the repository link with your recruiter.
+
+# Updates for Submission
+
+This repository is a forked version of the original assessment repo with my completed changes.
+This section documents the changes made as part of the technical assessment.
+The original README instructions remain unchanged above for reference.
+
+# Repository Setup
+
+Clone this updated repository instead of the original:
+
+```
+git clone https://github.com/um9r/storm-shop-assessment.git
+
+npm install
+
+npm start
+```
+
+# Changes Implemented
+
+1. Removed Subscriptions and Scripts buttons from the header.
+
+2. Added Create Account and Login buttons in their place.
