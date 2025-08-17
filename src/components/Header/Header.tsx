@@ -20,7 +20,9 @@ import WorkRoundedIcon from '@mui/icons-material/WorkRounded';
 import Person2RoundedIcon from '@mui/icons-material/Person2Rounded';
 import CodeRoundedIcon from '@mui/icons-material/CodeRounded';
 import DiamondRoundedIcon from '@mui/icons-material/DiamondRounded';
+import PersonAddRoundedIcon from '@mui/icons-material/PersonAddRounded';
 import Logo from '../img/logo512.png'
+import LoginRoundedIcon from '@mui/icons-material/LoginRounded';
 
 function App() {
     // Инициализация нужных переменных
@@ -84,8 +86,8 @@ function App() {
                         </a>
                         <Typography noWrap component='nav' className={`${resStyles('header_nav', resolution)}`}>
                             <Toolbar className={resStyles("nav_block", resolution)}>
-                                <Link to="/"><PinkButton sx={buttonStyles} startIcon={<DiamondRoundedIcon style={{ marginRight: '4px' }} />}>SUBSCRIPTIONS</PinkButton></Link>
-                                <Link to="/scripts"><BlueButton sx={buttonStyles} startIcon={<CodeRoundedIcon style={{ marginRight: '4px' }} />}>SCRIPTS</BlueButton></Link>
+                                <Link to="/signup"><PinkButton sx={buttonStyles} startIcon={<PersonAddRoundedIcon style={{ marginRight: '4px' }} />}>Create Account</PinkButton></Link>
+                                <Link to="/login"><BlueButton sx={buttonStyles} startIcon={<LoginRoundedIcon style={{ marginRight: '4px' }} />}>Login</BlueButton></Link>
                             </Toolbar>
 
                             <span style={{ fontSize: '32px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>|</span>
